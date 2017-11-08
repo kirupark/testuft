@@ -1,4 +1,9 @@
-﻿
+﻿Fn_ClosingBrowsers
+Fn_LaunchBrowser "iexplore.exe","http://opensource.demo.orangehrmlive.com/"
+Orangehrm_Login "Admin","admin"
+
+
+'StrSheetName = "TestLab"
 Orangehrm_Addemployee "Kiruba","kirupa","1001"
 Orangehrm_Logout
 'Getting Test Case to be executed
@@ -10,10 +15,7 @@ Orangehrm_Logout
 
 'StrTestLabPath = "S:\TestAutomation\KTSessions\GIT_Integration\TestLab\TestLab.xlsx"
 'strTestCasePath = "S:\TestAutomation\KTSessions\GIT_Integration\TestSuite"
-Orangehrm_Login "Admin","admin"
-Fn_ClosingBrowsers
-Fn_LaunchBrowser "iexplore.exe","http://opensource.demo.orangehrmlive.com/"
-'StrSheetName = "TestLab"
+
 'Set Oxl=Createobject("Excel.application")
 'Set OTestLab=Oxl.workbooks.Open(StrTestLabPath)
 'Set oTestLabSheet=OTestLab.Worksheets(StrSheetName)
