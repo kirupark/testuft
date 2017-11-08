@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'S:\\TestAutomation\\KTSessions\\GIT_Integration\\GUITest1\\Res3',namePairs:[]}]};

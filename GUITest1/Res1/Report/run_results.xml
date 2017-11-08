@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>[ OrangeHRM ].Close</Name>
+    <Description />
+    <StartTime>2017-11-08 14:18:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[[ OrangeHRM ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+      </TestObject>
+      <IconKey>6eb8e625fe1f44eda8f0cae3d5827646</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "iexplore.exe",1</Name>
+    <StartTime>2017-11-08 14:18:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>c060eeab18384d5e90f1e5181f324ba8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>The "OrangeHRM"  object was not found in the Object Repository.</Name>
+    <ErrorText>The "OrangeHRM"  object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;OrangeHRM&amp;quot;  object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Function file: S:\TestAutomation\KTSessions\GIT_Integration\GUITest1\Functions\Orangehrm_Application Specific Functions.qfl&lt;BR/&gt;Line (2): &amp;quot;Set opage=Browser(&amp;quot;OrangeHRM&amp;quot;).Page(&amp;quot;OrangeHRM&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2017-11-08 14:18:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[S:\TestAutomation\KTSessions\GIT_Integration\GUITest1\Functions\Orangehrm_Application Specific Functions.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[Orangehrm_Login]]></FunctionName>
+          <Scripts><![CDATA[Set opage=Browser("OrangeHRM").Page("OrangeHRM")]]></Scripts>
+          <LineNo><![CDATA[2]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Orangehrm_Login "Admin","admin"]]></Scripts>
+          <LineNo><![CDATA[3]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>440a37dd68e749979555b7b0f3a89e17</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2017-11-08 14:19:12</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>9963692fda5649a5b8869931e5f57296</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2017-11-08 14:18:38</StartTime>
+    <Duration>34</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>30e6cd27899440acbe054290d5881833</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2017-11-08 14:18:38</StartTime>
+    <Duration>34</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>cde163a93a134f96b88c856c7826b97d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2017-11-08 14:19:12</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>7573755b6fa0480e94333266f558fc1b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.54</ToolVersion>
+    <Description />
+    <StartTime>2017-11-08 14:18:36</StartTime>
+    <Duration>36</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>e09d1dc2a5284e8c824e06d97358079a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>DELTA\u13888</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2695 v2 @ 2.40GHz</CpuInfo>
+      <NumberOfCores>2</NumberOfCores>
+      <TotalMemory>4095</TotalMemory>
+      <HostName>delta.rl.delta.com\VMSPITWB00143</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2017-11-08 14:18:36</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.54</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>
