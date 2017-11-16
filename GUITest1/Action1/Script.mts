@@ -1,4 +1,9 @@
-﻿Fn_ClosingBrowsers
+﻿
+LoadFunctionLibrary "C:\test\GUITest1\Functions\Common_Functions.qfl" 'Associate a single function library
+LoadFunctionLibrary "C:\test\GUITest1\Functions\Event_Functions.qfl" 'Associate more than 1 function libraries
+LoadFunctionLibrary "CC:\test\GUITest1\Functions\Orangehrm_Application Specific Functions.qfl" 
+
+Fn_ClosingBrowsers
 Fn_LaunchBrowser "iexplore.exe","http://opensource.demo.orangehrmlive.com/"
 Orangehrm_Login "Admin","admin"
 
